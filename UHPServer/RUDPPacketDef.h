@@ -1,0 +1,12 @@
+#ifndef _RUDP_PACKET_DEF_H_ 
+#define _RUDP_PACKET_DEF_H_
+
+#include "PacketMacro.h"
+
+
+RUDP_NO_DATA(1 , RUDP_PORT_REGISTER)
+RUDP_MULTI_DATA(2 , RUDP_EXCHANGE_ADDR , RUDPAddr)
+RUDP_NO_DATA(3 , RUDP_UHP_START)
+
+
+#endif
